@@ -1,4 +1,4 @@
-Kurounin:PaginationReactJS
+Kurounin:Pagination-ReactJS
 =================
 
 This package provides a bootstrap 3 paginator ReactJS class to be used with the [kurounin:pagination](https://atmospherejs.com/kurounin/pagination) package.

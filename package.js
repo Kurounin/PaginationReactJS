@@ -1,5 +1,5 @@
 Package.describe({
-    "name": "kurounin:pagination",
+    "name": "kurounin:pagination-reactjs",
     "summary": "ReactJS paginator class for kurounin:pagination package.",
     "version": "1.0.1",
     "git": "https://github.com/Kurounin/PaginationReactJS.git"
@@ -10,11 +10,11 @@ Package.onUse(function (api) {
     api.use([
         "meteor-base",
         "underscore",
-        "kurounin:pagination"
+        "kurounin:pagination@1.0.7"
     ]);
 
     api.use([
-        "react"
+        "react@0.14.1_1"
     ], "client");
 
     api.addFiles([
